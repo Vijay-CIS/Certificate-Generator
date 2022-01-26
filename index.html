@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnoCIS Certificate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="favicon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="./logo1.jpg">
+        <h1> <a href="https://technocis.in" target="_blank">TECHNOCIS</a></h1>
+    </header>
+    <main>
+
+        <label for="name">Type Your Name</label>
+        <input required type="text" name="Name" autocomplete="name" placeholder="Name" id="name" minlength="3"
+            maxlength="16">
+        <Button id="submitBtn">Get Certificate</Button>
+         <input type="date"  id="date">
+        <!-- <date id="date"></date> -->
+    </main>
+
+    
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./index.js"></script>
+    <!-- <script src="./date.js"></script> -->
+</body>
+
+</html>
